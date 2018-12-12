@@ -13,7 +13,7 @@ public class Zadatak1_cas2 {
 		System.out.print("Unesite veci broj ");
 		b = input.nextInt();
 		
-		int i = a;
+		int i = a + 1;
 		
 		while (i < b) {
 			if (i % 2 == 0)
