@@ -24,10 +24,7 @@ public class ZAdatak2_cas2 {
 				k=i;
 			}
 		}input.close();
-			System.out.print("Sudent sa najvecim brojem poena je: " + list[k][0] + " a njegov broj poena je " + list[k][1]);;
-			
-		
+			System.out.print("Sudent sa najvecim brojem poena je: " + list[k][0] + " a njegov broj poena je " + list[k][1]);
 
 	}
-
 }
