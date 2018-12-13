@@ -20,8 +20,13 @@ public class Zadatak4_cas2 {
 	}
 
 	static double deljenje(int x, int y) {
-		System.out.println("Rezultat je: " + (double)x /(double) y);
-		return (double)x / (double)y;
+		if (y!=0) {
+			System.out.println("Rezultat je: " + (double)x /(double) y);
+			return (double)x / (double)y;
+		}
+		else 
+			System.out.println("Ne moze se deliti sa 0.");
+		return 0;
 	}
 
 	public static void main(String[] args) {
